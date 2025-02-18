@@ -1,2 +1,1 @@
-* start styling everything for real
-* make it look nice on mobile and desktop according to the tailwind guys' pdf
+* start styling everything for real according to the tailwind guys' pdf
