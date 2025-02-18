@@ -1,1 +1,2 @@
 * start styling everything for real according to the tailwind guys' pdf
+* add link to my substack or start a writing section
