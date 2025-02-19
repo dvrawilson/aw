@@ -5,6 +5,11 @@ import locale
 import re
 
 prelude = """
+<!--
+    Copyright (c) 2025 antiochus wilson
+    Content licensed under Creative Commons Attribution-NonCommercial 4.0 International License
+    https://creativecommons.org/licenses/by-nc/4.0/
+-->
 <!doctype html>
 <html lang="en">
     <head>
@@ -37,7 +42,7 @@ prelude = """
                 <ul id="entries">
 """
 print(prelude)
-with open('../assets/cleanedtweets.json') as f:
+with open('../data/cleanedtweets.json') as f:
     d = json.load(f)
     locale.setlocale(locale.LC_ALL, '')
     url_pattern = r'https?://[^\s]+'
@@ -88,7 +93,9 @@ postscript = """
             </section>
         </main>
         <footer>
-            <p>&copy; 2025</p>
+            <p>&copy; 2025</p> |
+            <a href="./assets/license.txt">Content License</a> |
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
         </footer>
     </body>
 </html>

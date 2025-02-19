@@ -21,7 +21,7 @@ jq '[.[] |
             expanded: .expanded_url
         }))
     }
-]' ../assets/tweets.json > ../assets/slimtweets.json
+]' ../data/tweets.json > ../data/slimtweets.json
 
 jq '[foreach .[] as $item (.;
   if $item.urls | length > 0 then
@@ -34,4 +34,4 @@ jq '[foreach .[] as $item (.;
             timestamp: $item.timestamp, 
             id: $item.id,
         }  
-)]' ../assets/slimtweets.json > ../assets/cleanedtweets.json
+)]' ../data/slimtweets.json > ../data/cleanedtweets.json
