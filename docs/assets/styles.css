@@ -70,7 +70,9 @@ main {
     margin: 0;
     overflow-y: auto;
     overflow-x: hidden;
-    height: 650px
+    height: 650px;
+    scrollbar-color: #fff #f99f3e;
+ 
 }
 
 .entry {
