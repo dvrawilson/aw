@@ -59,8 +59,8 @@ main {
 #search-bar {
     width: 100%;
     padding: 10px;
-    border: 1px solid #333;
-    background: #f99f3e;
+    border: 3px solid #f99f3e;
+    background: #f3e9d3;
     border-radius: 5px;
 }
 
@@ -71,13 +71,12 @@ main {
     overflow-y: auto;
     overflow-x: hidden;
     height: 650px;
-    scrollbar-color: #fff #f99f3e;
  
 }
 
 .entry {
-    background: #f2d288;
-    border: 1px solid #ddd;
+    background: #f3e9d3;
+    border: 2px solid #f99f3e;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 15px;
