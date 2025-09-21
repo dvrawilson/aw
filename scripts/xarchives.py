@@ -94,9 +94,9 @@ postscript = """
             </section>
         </main>
         <footer>
-            <p>&copy; 2025</p> |
+            <span>&copy; 2025 |
             <a href="./assets/license.txt">Content License</a> |
-            <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></span>
         </footer>
     </body>
 </html>
