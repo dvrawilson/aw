@@ -48,6 +48,10 @@ main {
     flex-grow: 1;
 }
 
+#anchor {
+    padding: 0px 480px;
+}
+
 #search {
     margin-bottom: 20px;
 }
@@ -63,6 +67,8 @@ main {
     list-style: none;
     padding: 0;
     margin: 0;
+    overflow-y: auto;
+    height: 600px
 }
 
 .entry {
@@ -112,5 +118,19 @@ ul {
 
     #search-bar {
         width: 90%;
+    }
+
+    #anchor {
+        padding: 0px 120px;
+    }
+
+    #timeline {
+        height: 450px;
+    }
+
+    main {
+        max-width: 345px;
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }

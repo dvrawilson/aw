@@ -38,6 +38,7 @@ prelude = """
                     placeholder="Search xarchives..."
                 />
             </section>
+            <div id="anchor"></div>
             <section id="timeline">
                 <ul id="entries">
 """
