@@ -59,7 +59,8 @@ main {
 #search-bar {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
+    background: #f99f3e;
     border-radius: 5px;
 }
 
@@ -96,7 +97,7 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background: #f99f3e;
+    background: #ffd900;
     color: #333;
     margin-top: 20px;
     flex-shrink: 0;
