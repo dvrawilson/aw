@@ -1,4 +1,2 @@
-* start styling everything for real according to the tailwind guys' pdf
-* start a writing section
 * convert munge.sh to munge.py (had gemini start for me, review and fix up issues)
 * create pre-rendered subsets by year, radio button, select multiple or none (all years)
